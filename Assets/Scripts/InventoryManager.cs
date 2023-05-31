@@ -18,7 +18,6 @@ public class InventoryManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
     public bool AddItem(Item item) {
 
